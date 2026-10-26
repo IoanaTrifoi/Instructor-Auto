@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Înscriere | Instructor auto Claudiu Pintea, Sighetu Marmației</title>
+<meta name="description" content="Înscrie-te la cursurile de conducere categoria B cu instructorul Claudiu Pintea din Sighetu Marmației. Telefon: 0744 470 807.">
+<meta name="theme-color" content="#070707">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="road-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="Claudiu Pintea — Instructor auto, acasă">
+      <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="2.4"/><path d="M2.8 10.5c3 .4 5.4.6 6.8 1.1M21.2 10.5c-3 .4-5.4.6-6.8 1.1M12 14.4v7"/></svg></span>
+      <span class="logo-text">Claudiu Pintea<small>Instructor auto · Cat. B</small></span>
+    </a>
+    <nav class="nav" aria-label="Navigare principală">
+      <a href="index.html">Acasă</a>
+      <a href="index.html#despre">Despre</a>
+      <a href="index.html#curs">Cursul</a>
+      <a href="examen.html">Examen &amp; Ghid</a>
+      <a href="contact.html" class="btn btn-primary" aria-current="page">Înscrie-te</a>
+    </nav>
+    <button class="burger" aria-label="Deschide meniul" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero" style="padding-bottom:40px;">
+  <div class="container" data-reveal="left">
+    <span class="eyebrow">Contact &amp; înscriere</span>
+    <h1>Hai să începem</h1>
+    <p>Sună direct sau completează formularul — îți răspund cu toate detaliile despre curs, program și acte.</p>
+  </div>
+</section>
+
+<section style="padding-top:40px;">
+  <div class="container contact-grid">
+
+    <div data-reveal="left">
+      <span class="eyebrow">Sună acum</span>
+      <a class="big-phone" href="tel:+40744470807">0744 470 807</a>
+      <p class="muted">Disponibil zilnic până la ora 21:00.</p>
+
+      <div class="contact-list">
+        <a class="contact-row" href="https://wa.me/40744470807" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+          <div><small>WhatsApp</small><span>Trimite un mesaj</span></div>
+        </a>
+        <a class="contact-row" href="https://www.google.com/maps/search/?api=1&query=Instructor+auto+Cat.B+Sighetu+Marma%C8%9Biei+Claudiu+Pintea" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><small>Adresă · Google Maps</small><span>Strada Bogdan Vodă, 435500 Sighetu Marmației</span></div>
+        </a>
+        <!-- Adaugă adresa de e-mail reală aici, apoi decomentează:
+        <a class="contact-row" href="mailto:adresa@exemplu.ro">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          <div><small>E-mail</small><span>adresa@exemplu.ro</span></div>
+        </a>
+        -->
+        <div class="contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <div><small>Program</small><span>Zilnic · până la 21:00</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card" data-reveal="right">
+      <form id="enroll-form" novalidate>
+        <div class="form-body">
+          <h2>Formular de înscriere</h2>
+          <p>Durează sub un minut. Cererea se trimite pe WhatsApp, direct către instructor.</p>
+          <div class="form-progress" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+
+          <div class="field">
+            <input id="f-nume" name="nume" type="text" placeholder=" " autocomplete="name" required minlength="3">
+            <label for="f-nume">Nume și prenume</label>
+            <span class="bar"></span>
+            <span class="err">Te rog completează numele.</span>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <input id="f-tel" name="telefon" type="tel" placeholder=" " autocomplete="tel" inputmode="tel" required>
+              <label for="f-tel">Telefon</label>
+              <span class="bar"></span>
+              <span class="err">Număr de telefon invalid.</span>
+            </div>
+            <div class="field">
+              <input id="f-varsta" name="varsta" type="number" placeholder=" " min="17" max="99" inputmode="numeric" required>
+              <label for="f-varsta">Vârstă</label>
+              <span class="bar"></span>
+              <span class="err">Vârsta minimă este 17 ani.</span>
+            </div>
+          </div>
+          <div class="field select">
+            <select id="f-exp" name="experienta" required>
+              <option value="" hidden></option>
+              <option>Sunt la început de drum</option>
+              <option>Am mai luat ore</option>
+              <option>Vreau doar ore de perfecționare</option>
+            </select>
+            <label for="f-exp">Nivel de experiență</label>
+            <span class="bar"></span>
+            <span class="err">Alege o variantă.</span>
+          </div>
+          <div class="field select">
+            <select id="f-prog" name="program" required>
+              <option value="" hidden></option>
+              <option>Disponibil dimineața</option>
+              <option>Disponibil după-amiaza</option>
+            </select>
+            <label for="f-prog">Preferințe orare</label>
+            <span class="bar"></span>
+            <span class="err">Alege o variantă.</span>
+          </div>
+          <div class="field">
+            <textarea id="f-msg" name="mesaj" placeholder=" " rows="3"></textarea>
+            <label for="f-msg">Mesaj (opțional)</label>
+            <span class="bar"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg submit">
+            <span class="label">Trimite înscrierea</span>
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            <svg class="wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-label="Se trimite"><circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="2.4"/><path d="M2.8 10.5c3 .4 5.4.6 6.8 1.1M21.2 10.5c-3 .4-5.4.6-6.8 1.1M12 14.4v7"/></svg>
+          </button>
+          <p class="form-note">Datele tale sunt folosite doar pentru a te contacta în legătură cu înscrierea.</p>
+        </div>
+
+        <div class="form-success" role="status">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
+          <h2>Mulțumesc!</h2>
+          <p style="margin:12px 0 26px;">Mesajul tău a fost pregătit în WhatsApp. Apasă „Trimite” acolo și te contactez cât mai curând.</p>
+          <a class="btn btn-outline" href="https://wa.me/40744470807" target="_blank" rel="noopener">Deschide din nou WhatsApp</a>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo">
+          <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><circle cx="12" cy="12" r="2.4"/><path d="M2.8 10.5c3 .4 5.4.6 6.8 1.1M21.2 10.5c-3 .4-5.4.6-6.8 1.1M12 14.4v7"/></svg></span>
+          <span class="logo-text">Claudiu Pintea<small>Instructor auto · Cat. B</small></span>
+        </a>
+        <p style="margin-top:18px;max-width:340px;font-size:.95rem;">Pregătire pentru permisul categoria B și ore de perfecționare în Sighetu Marmației.</p>
+      </div>
+      <div>
+        <h4>Pagini</h4>
+        <ul>
+          <li><a href="index.html">Acasă</a></li>
+          <li><a href="examen.html">Examen &amp; Ghidul orașului</a></li>
+          <li><a href="contact.html">Contact &amp; Înscriere</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+40744470807">+40 744 470 807</a></li>
+          <li><a href="https://wa.me/40744470807" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li>Strada Bogdan Vodă, 435500<br>Sighetu Marmației</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Instructor auto Cat. B Sighetu Marmației — Claudiu Pintea</span>
+      <span>Program: zilnic până la 21:00</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
