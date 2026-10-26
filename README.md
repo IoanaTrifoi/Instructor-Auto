@@ -12,3 +12,9 @@ Site static (HTML/CSS/JS, fără build). Deschide `index.html` sau publică fold
 - **Fotografie**: `assets/img/claudiu-pintea-examen.jpg` este decupată dintr-o captură de ecran;
   înlocuiește-o cu o fotografie la rezoluție mare. Pentru hero video, vezi comentariul din `index.html`.
 - **E-mail**: în `contact.html` există un rând de e-mail comentat — adaugă adresa reală și decomentează-l.
+
+## Publicare (GitHub Pages)
+Workflow-ul `.github/workflows/deploy-pages.yml` publică automat site-ul la fiecare push pe `main`.
+Configurare (o singură dată): Settings → Pages → Source: **GitHub Actions**.
+Pentru un repository privat, GitHub Pages necesită un plan plătit (GitHub Pro); altfel repository-ul trebuie să fie public.
+Domeniu propriu (opțional): Settings → Pages → Custom domain.
